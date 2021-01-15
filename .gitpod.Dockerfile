@@ -5,7 +5,7 @@ FROM gitpod/workspace-full
 RUN brew install rbenv \
     && sudo apt-get update \
     && sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties \
-    && sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev \
+    && sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
 #     && echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile \
 #     && echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile \
 #     && source ~/.bash_profile
