@@ -4,7 +4,7 @@ USER gitpod
 RUN touch ~/.bash_profile
 RUN brew install rbenv
 
-RUN RUN mv /bin/sh /bin/sh_tmp && ln -s /bin/bash /bin/sh
+RUN mv /bin/sh /bin/sh_tmp && ln -s /bin/bash /bin/sh
 
 RUN echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 RUN echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
