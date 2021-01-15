@@ -1,7 +1,7 @@
 FROM gitpod/workspace-full
 USER gitpod
 
-RUN RUN sudo rvm install 2.7.0
+# RUN RUN sudo rvm install 2.7.0
 # RUN rvm get stable --auto-dotfiles
 # RUN brew install rbenv
 # RUN rbenv install 2.7.0 \
