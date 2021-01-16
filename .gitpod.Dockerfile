@@ -11,6 +11,5 @@ RUN echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bas
 RUN source ~/.bashrc
 
 RUN rbenv install 2.7.0
-RUN rbenv global 2.7.0
 
 RUN sudo rm /bin/sh && sudo mv /bin/sh_tmp /bin/sh
