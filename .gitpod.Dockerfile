@@ -17,6 +17,5 @@ RUN rbenv global 2.7.0
 
 RUN echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 RUN echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
-RUN source ~/.bash_profile
 
 RUN sudo rm /bin/sh && sudo mv /bin/sh_tmp /bin/sh
